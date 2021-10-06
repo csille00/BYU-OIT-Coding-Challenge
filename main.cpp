@@ -33,7 +33,7 @@ int RNToDecimal (string userRomanNumeral){
           /*if (userRomanNumeral.at(i + 1) == 76 || userRomanNumeral.at(i + 1) == 67){
                totalDec -= X;
            }*/
-          else {totalDec += X;}
+          totalDec += X;
        }
        else if (userRomanNumeral.at(i) == 'V'){
            totalDec += V;
